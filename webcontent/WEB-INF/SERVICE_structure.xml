@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+	<userInfo>
+		<userID></userID>
+		<userName></userName>
+	</userInfo>
+	<serviceID></serviceID>
+	<describe>
+		<serviceName></serviceName>
+		<description></description>
+		<keywords></keywords>
+		<processType></processType>
+	</describe>
+	<tableStructure>
+	<!--这里的列族名怎么表示，列名怎么表示，是直接用key代表列族名还是怎么
+	另外，每个列是否需要加数据类型-->
+	  <tableName describetion ="建筑表">Architecture</tableName>
+	  <dataList>
+	    <data>
+	      <rowKey>X+30.499,Y+98.912</rowKey>
+	      <familyList>
+	        <family name="info" describetion ="信息">
+	          <qualifier name="race" describetion ="民族">
+	            <value></value>
+	          </qualifier>
+	          <qualifier name="village" describetion ="村寨">
+	            <value></value>
+	          </qualifier>
+	        </family>
+	      </familyList>
+	    </data>
+	  </dataList>
+	</tableStructure>
+	<reflect>
+		<!--对应各个qualifier-->
+	<tableName describetion ="建筑表">Architecture</tableName>
+	  <dataList>
+	    <data>
+	      <rowKey>X+30.499,Y+98.912</rowKey>
+	      <familyList>
+	        <family name="列族名" describetion ="信息">
+	          <qualifier name="列名" describetion ="民族">
+	            <value>显示名</value>
+	          </qualifier>
+	        </family>
+	        <family name="列族名" describetion ="信息">
+	          <qualifier name="列名" describetion ="民族">
+	            <value>显示名</value>
+	          </qualifier>
+	        </family>
+	      </familyList>
+	    </data>
+	  </dataList>
+	</reflect>
+</service>

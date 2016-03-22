@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+	<userInfo>
+		<userID></userID>
+		<userName></userName>
+	</userInfo>
+	<serviceID></serviceID>
+	<describe>
+		<serviceName></serviceName>
+		<description></description>
+		<keywords></keywords>
+		<processType></processType>
+	</describe>
+	<tableStructure>
+		<tableName></tableName>
+			<dataList>
+				<rowKey></rowKey>
+				<familyList>
+					<family name="">	
+						<qualifier	name="">
+							<value></value>
+						</qualifier>
+						<qualifier	name="">
+							<value></value>
+						</qualifier>
+						<qualifier	name="">
+							<value></value>
+						</qualifier>
+					</family>
+				</familyList>
+			</dataList>
+	</tableStructure>
+	<reflect>
+		<!--映射列族下各个列，即qualifier-->
+			<column name="family,col1,col2...">显示的名字</column>
+	</reflect>
+</service>
